@@ -23,3 +23,7 @@ weather_com_result = pywapi.get_weather_from_weather_com('CHXX5650')
 
 print("Weather.com says: It is " + str.lower(weather_com_result['current_conditions']['text']) + " and " + weather_com_result['current_conditions']['temperature'] + "C now in Zhuzhou.\n\n")
 ```
+
+## 拓展思路
+- 搜索今日的预报，而不是仅仅是当下的天气
+- 可以自己搜索城市名称，不输入就自动反显株洲
