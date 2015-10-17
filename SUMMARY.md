@@ -9,6 +9,7 @@
    * [开始使用MarkDown](0MOOC/md.md)
    * [提问的智慧](0MOOC/ask-question.md)
 * [基础旋进](1sTry/README.md)
+   * 让python自动获取天气
 * [迭代作品](2nDev/README.md)
 * [人生首秀](3rDemo/README.md)
 * [代码 (_src)](_src/README.md)
