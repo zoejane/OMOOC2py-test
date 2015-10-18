@@ -111,3 +111,13 @@ else:
 diary.close()
 
 ```
+
+## 尝试三：
+
+- 试着发布，就会觉得readme写的好烂，以后要加强
+- 当要发布给别人用的时候
+    - 发现不仅要考虑自己在用的Mac OS下的Python3，还要考虑python2，还要考虑Windows
+    - 发现还要告诉他们将环境配置成和我类似的，比如Path，chmod这些
+
+#### Question
+- 可不可以用类似setup.py的功能，自动完成这些配置工作
