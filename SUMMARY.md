@@ -12,6 +12,7 @@
    * [Sublime配置](0MOOC/sublime.md)
    * [Command Line学习笔记](0MOOC/command.md)
    * [Git学习笔记](0MOOC/git-reflections.md)
+   * Git安装与工作环境配置
 * [基础旋进](1sTry/README.md)
    * [让python自动获取天气](1sTry/weather-py.md)
    * [看到自卑，看到不敢，看到就会有新的发现 - Week1课程笔记](1sTry/video1.md)
