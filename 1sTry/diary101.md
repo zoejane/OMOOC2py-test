@@ -79,18 +79,18 @@ UnicodeDecodeError: 'ascii' codec can't decode byte 0xe6 in position 1: ordinal 
 ```
 
 ## 尝试二：
-Quesiton：
+#### Quesiton
 
 - 如何添加日期
 
-Solution：
+#### Solution
 - [Python: Get Today’s Current Date and Time](http://www.cyberciti.biz/faq/howto-get-current-date-time-in-python/)
 ```
 import time
 print(time.strftime("%Y/%m/%d"))
 ```
 
-代码
+#### 代码
 ```
 #! /usr/bin/env python3
 
