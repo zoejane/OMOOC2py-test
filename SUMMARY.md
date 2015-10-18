@@ -15,7 +15,7 @@
    * [Git安装与工作环境配置](0MOOC/git-setup.md)
    * [Git操作笔记](0MOOC/git-notes.md)
    * [Gitbook与Github互推](0MOOC/gitbook-github.md)
-   * 为Gitbook添加评论-disqus
+   * [为Gitbook添加评论-disqus](0MOOC/disqus.md)
 * [基础旋进](1sTry/README.md)
    * [让python自动获取天气](1sTry/weather-py.md)
    * [看到自卑，看到不敢，看到就会有新的发现 - Week1课程笔记](1sTry/video1.md)
