@@ -8,6 +8,7 @@
        * [初心：是什么打动了我](0MOOC/like-it.md)
    * [开始使用MarkDown](0MOOC/md.md)
    * [提问的智慧](0MOOC/ask-question.md)
+   * Week1：搭建自己的学习环境
 * [基础旋进](1sTry/README.md)
    * [让python自动获取天气](1sTry/weather-py.md)
    * [看到自卑，看到不敢，看到就会有新的发现 - Week1课程笔记](1sTry/video1.md)
