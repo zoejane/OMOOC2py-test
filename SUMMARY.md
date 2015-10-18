@@ -14,7 +14,7 @@
    * [Week2:直面生活](1sTry/week2.md)
    * [工作中两种类型的事情](1sTry/work-thingking.md)
    * [工作问题解决思路](1sTry/work-solution.md)
-   * 编程思路探讨—— 小游戏：guess the number
+   * [编程思路探讨—— 小游戏：guess the number](1sTry/guess_the_number.md)
 * [迭代作品](2nDev/README.md)
 * [人生首秀](3rDemo/README.md)
 * [代码 (_src)](_src/README.md)
