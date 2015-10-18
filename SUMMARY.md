@@ -10,7 +10,7 @@
    * [提问的智慧](0MOOC/ask-question.md)
    * [Week1：搭建自己的学习环境](0MOOC/week1.md)
    * [Sublime配置](0MOOC/sublime.md)
-   * Command Line学习笔记
+   * [Command Line学习笔记](0MOOC/command.md)
 * [基础旋进](1sTry/README.md)
    * [让python自动获取天气](1sTry/weather-py.md)
    * [看到自卑，看到不敢，看到就会有新的发现 - Week1课程笔记](1sTry/video1.md)
