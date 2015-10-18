@@ -25,7 +25,7 @@
        * [用python快速打开网页](1sTry/open-web.md)
        * [让python自动获取天气](1sTry/weather-py.md)
        * [看到自卑，看到不敢，看到就会有新的发现 - Week1课程笔记](1sTry/video1.md)
-   * [交互101 - 日记系统](1sTry/diary101.md)
+   * [交互101 - 小小日记系统](1sTry/diary101.md)
 * [迭代作品](2nDev/README.md)
 * [人生首秀](3rDemo/README.md)
 * [代码 (_src)](_src/README.md)
