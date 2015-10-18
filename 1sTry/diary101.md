@@ -24,7 +24,19 @@
 		- 打开diary.txt	 
 		- 如果diary.txt不存在，创建它
 
-问题：
+#### Question
 
 - 如何用python创建diary.txt
 - 如何用python添加文字到某一个文档
+
+#### Solution
+
+- 学习 [Lesson31 Reading and Writing Plaintext Files@Automate](https://www.udemy.com/automate/learn/#/lecture/3470542)
+    - append mode就是我想要的
+        - 可以在文末增加一行
+        - 如果文件不存在也会自动创建文件
+```
+helloFile = open('hello.txt','a')
+helloFile.write('Hello')
+helloFile.close()
+```
