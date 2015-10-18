@@ -1,6 +1,6 @@
 # 交互101 - 日记系统
 
-## 本周整体任务概述:
+## 卡片一：本周整体任务概述:
 
 - 完成一个极简交互式日记系统，需求如下：
 	- 一次接收输入一行日记
@@ -12,7 +12,7 @@
 	- 包含软件使用说明书: README.md
 	- 能令其它学员根据说明书,运行系统,完成所有功能
 
-## 尝试一：
+## 思考一：
 
 -  输入“diary.py 日记内容”，将内容保存为本地文件
 - 要用到import sys的sys.argv
@@ -39,4 +39,75 @@
 helloFile = open('hello.txt','a')
 helloFile.write('Hello')
 helloFile.close()
+```
+
+## 尝试一：
+```
+#! /usr/bin/env python3
+
+import sys
+
+
+if len(sys.argv) >1:
+    diary=open('diary.txt','a')
+    diary.write("\n" + content)
+    
+else:
+    content = diary.read()
+    print(content)
+
+diary.close()
+
+```
+
+之前有担心不能输入中文，后来发现顺利通过。
+### Question
+
+- 如何判断是不是第一次添加日记（日记是空白），这时不用添加空行
+- 发现直接调用d.py的时候，可以添加中文没问题，  
+但是直接编译的话其实是会报错的，  
+估计还是diary.txt里有中文的问题，  
+先记录，待解决。
+
+```
+Traceback (most recent call last):
+  File "/Users/Zoe/GitHub/MyPythonScripts/d.py", line 14, in <module>
+    content = diary.read()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/encodings/ascii.py", line 26, in decode
+    return codecs.ascii_decode(input, self.errors)[0]
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xe6 in position 1: ordinal not in range(128)
+```
+
+## 尝试二：
+Quesiton：
+
+- 如何添加日期
+
+Solution：
+- [Python: Get Today’s Current Date and Time](http://www.cyberciti.biz/faq/howto-get-current-date-time-in-python/)
+```
+import time
+print(time.strftime("%Y/%m/%d"))
+```
+
+代码
+```
+#! /usr/bin/env python3
+
+import sys
+import time
+
+diary=open('diary.txt','a')
+
+if len(sys.argv) >1:
+    content = ' '.join(sys.argv[1:])
+    diary.write("\n" + time.strftime("%Y/%m/%d")+ ' ' +content)
+    
+else:
+    diary=open('diary.txt')
+    content = diary.read()
+    print(content)
+
+diary.close()
+
 ```
