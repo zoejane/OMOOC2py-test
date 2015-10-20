@@ -190,3 +190,6 @@ else:
 
 diaryFile.close()
 ```
+
+##### Questiong
+- 可不可以不通过命令行，而是双击直接运行呢
