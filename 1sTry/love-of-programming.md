@@ -111,3 +111,13 @@ About Life.
 Zoe, remember this feeling.
 
 #### 尝试五 - Special Version for 哥哥
+
+- 这次界面要用中文写啦。 
+
+##### Question
+- 才发现mac下的idle是不能写中文的...
+
+#### Solution
+>[mac下的 idle为何不能输入中文?该如何解决?](http://www.zhihu.com/question/26532408)  
+第一种情况是在 IDLE 下中文输入法失效。这是因为 IDLE 界面使用的 Tkinter 需要依赖 Tcl/Tk，而系统自带的 Tcl/Tk 版本太低，造成了不兼容的问题。   
+可以用homebrew安装 ```brew install tcl-tk```
