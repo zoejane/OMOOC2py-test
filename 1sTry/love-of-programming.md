@@ -6,6 +6,8 @@
 	- 一次接收输入一行日记
 	- 保存为本地文件
 	- 再次运行系统时,能打印出过往的所有日记
+- 第一次笔记
+    - [小小日记系统-第一次尝试](https://zoejane.gitbooks.io/omooc2py/content/1sTry/diary101.html)
 	
 ## 思考二
 
