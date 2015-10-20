@@ -119,6 +119,74 @@ Zoe, remember this feeling.
 
 #### Solution
 
-> 第一种情况是在 IDLE 下中文输入法失效。这是因为 IDLE 界面使用的 Tkinter 需要依赖 Tcl/Tk，而系统自带的 Tcl/Tk 版本太低，造成了不兼容的问题。   
-可以用homebrew安装 ```brew install tcl-tk```  
+> 1. IDLE 下中文输入法失效。这是因为 IDLE 界面使用的 Tkinter 需要依赖 Tcl/Tk，而系统自带的 Tcl/Tk 版本太低，造成了不兼容的问题。   
+可以[下载新版本](http://www.activestate.com/activetcl/downloads)  
+或者用homebrew安装 ```brew install tcl-tk```  
 via [mac下的 idle为何不能输入中文?该如何解决?](http://www.zhihu.com/question/26532408)  
+
+测试后，还是不行
+
+>2. 根据IDLE的WARNING: The version of Tcl/Tk (8.5.9) in use may be unstable.  
+Visit http://www.python.org/download/mac/tcltk/ for current information.  
+If you are using OS X 10.9 or later and a Python from a python.org 64-bit/32-bit installer, application windows may not update properly due to a Tk problem. Install the latest ActiveTcl 8.5.18.0 if possible. 
+
+发现是要下载8.5版本，而不是更新的8.6版本才可以。搞定。
+
+##### Question
+- 程序有中文需要declare
+
+##### Solution
+添加 ```# -*- coding: utf-8 -*-```
+
+##### Question
+- 想要能保存多条日记
+
+##### Solution
+用while loop和break
+
+##### 代码
+```
+# -*- coding: utf-8 -*-
+import time
+
+
+                                                # ----问候----
+print('哥哥，我是你的日记。')
+print('你今天有什么想和我分享的吗？')
+print('你也可以按"回车键"来阅读我。')
+
+diary = raw_input('>>')
+
+
+                                                # ----输入回车键，阅读日记----
+if diary == '':                         
+    diaryFile = open('diary.txt')
+    diary = diaryFile.read()
+    print('============日记============')
+    print(diary)
+
+
+                                                # ----输入文字，开始写日记啦 ----   
+else:
+    diaryFile = open('diary.txt','a')
+    
+    write='y'
+    while write=='y':
+        diaryFile.write('\n' + time.strftime('%Y/%m/%d')+ ' ' +diary)
+
+                                                # ----还想继续写日记----        
+        print('已经帮你记下来啦。你还有想和我说的话吗？(y/n)')
+        write=raw_input()
+
+                                                # ----不想写啦----        
+        if write !='y':
+            break
+        
+        diary = raw_input('>>')
+
+                                                #----说再见----
+    print('谢谢你和我分享这些。')
+    print('再见。我会想你的。')
+
+diaryFile.close()
+```
