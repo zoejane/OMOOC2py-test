@@ -171,4 +171,10 @@ raw_input() returns the verbatim string entered by the user.
 > via [Python 2.7 getting user input and manipulating as string without quotations](http://stackoverflow.com/questions/4960208/python-2-7-getting-user-input-and-manipulating-as-string-without-quotations)
 
 
-## 思考
+## 思考三
+
+再次受到issue的启发，  
+包括那时候上Kunal的课，其实最感动的是，当他们用python写出一些很简单但充满爱的小程序，和他们所爱的人一起分享的时刻。  
+无论是给自己的小孩子上一课超简单的python课，还是用python做出一个小小照片游戏，告诉自己亲爱的人，说爱你。  
+我想，这是我觉得python最有爱的时刻，也是最最让我感动的时刻。  
+这程序
