@@ -57,6 +57,30 @@ raw_input() returns the verbatim string entered by the user.
 
 > via [Python 2.7 getting user input and manipulating as string without quotations](http://stackoverflow.com/questions/4960208/python-2-7-getting-user-input-and-manipulating-as-string-without-quotations)
 
+##### 代码
+```
+import time
+
+print('Hi, I am the diary of yours.')
+print('Do you have something want to share with me now?')
+print('Or you can just press Enter to read all of me.')
+
+diary = raw_input('>>')
+
+if diary == '':
+    diaryFile = open('diary.txt')
+    diary = diaryFile.read()
+    print(diary)
+    
+else:
+    diaryFile = open('diary.txt','a')
+    diaryFile.write('\n' + time.strftime('%Y/%m/%d')+ ' ' +diary)
+
+    print('Thank you for sharing with me.')
+    print('Bye. I will miss you.')
+
+diaryFile.close()
+```
 
 ## 思考三
 
