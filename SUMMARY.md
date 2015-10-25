@@ -30,7 +30,7 @@
        * [让编程更有爱的一点-继续小小日记](1sTry/love-of-programming.md)
    * [Week4:Surprise and Change](1sTry/week4.md)
        * [Suprise与不插电试验](1sTry/suprise.md)
-           * 当时间和精力有限，当你遇到一个坑
+           * [当时间和精力有限，当你遇到一个坑](1sTry/face-problem.md)
 * [迭代作品](2nDev/README.md)
 * [人生首秀](3rDemo/README.md)
 * [代码 (_src)](_src/README.md)
