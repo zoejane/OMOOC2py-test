@@ -28,6 +28,7 @@
    * [Week3:开始编程啦](1sTry/week3.md)
        * [小小日记系统-第一次尝试](1sTry/diary101.md)
        * [让编程更有爱的一点-继续小小日记](1sTry/love-of-programming.md)
+   * Week4:意外与改变
 * [迭代作品](2nDev/README.md)
 * [人生首秀](3rDemo/README.md)
 * [代码 (_src)](_src/README.md)
