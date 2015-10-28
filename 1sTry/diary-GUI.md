@@ -77,3 +77,4 @@ Read版面
 - 发现不能保存中文，将get()语句修改 ```diary=self.entry.get().encode('utf-8')```
 - 发现可以保存复制的中文，但是中文不能打字
 - 发现在python的idle中运行时可以打中文的，但是sublime中不行，推测是调用的tk版本不同的问题
+- 但是在idle中运行程序，点击左上角关闭感觉有些死机，sublime中没有这个问题
