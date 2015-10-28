@@ -50,3 +50,12 @@ Read版面
 - 想象中有几个界面，想在几个界面中进行切换，开始是搜索的tkinter button change window，后来发现其实我的意思是在几个frame中切换
 - 在stackoverflow上有段超棒的解答，虽然我不太看得懂，但是看到程序运行出来的效果，我就觉得写得真的好棒
 > 参考资料：[Switch between two frames in tkinter](http://stackoverflow.com/questions/7546050/switch-between-two-frames-in-tkinter)
+- 尝试把上面完成的图片界面程序和这个界面跳转程序连接到一起
+
+#### 添加读日记界面
+- 在尝试在读日记界面添加text的时候，遇到global name 'END' is not defined，搜索后发现END要改成tk.END就可以了
+> 参考资料：[tkinter NameError: global name 'END' is not defined](http://www.scriptscoop.net/t/30e72bef2788/python-tkinter-nameerror-global-name-end-is-not-defined.html)
+- 整合上一周的的阅读diary的代码
+
+#### 添加写日记界面
+- 添加input界面
