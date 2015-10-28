@@ -70,3 +70,4 @@ Read版面
 - 考虑增加scrollbar
 - 根据前面的tutorial中的scrollbar部分，一行行的尝试添加代码，看哪里可能出错，修正
 - 添加```from Tkinter import *```减少报错
+- 考虑修改阅读版面的字体
