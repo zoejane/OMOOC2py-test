@@ -63,3 +63,4 @@ Read版面
 - 发现[Bryan Oakley](http://stackoverflow.com/users/7432/bryan-oakley)关于tkinter的回答都很棒，值得细读
 - 修改了一下Entry的padding，看起来更舒服一点 ```self.entry.pack(ipadx=100,ipady=10)```
 - 保存完自动清空内容 ```self.entry.delete(0,tk.END)```
+- 整合上一周的的写diary的代码
