@@ -65,3 +65,6 @@ Read版面
 - 保存完自动清空内容 ```self.entry.delete(0,tk.END)```
 - 整合上一周的的书写diary的代码
 
+#### 继续修改
+- 发现阅读diary的内容没有正确展示出来，后来发现是因为height不够，后面的内容没有显示
+- 考虑增加scrollbar
