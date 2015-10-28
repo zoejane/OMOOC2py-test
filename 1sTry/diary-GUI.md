@@ -64,3 +64,4 @@ Read版面
 - 修改了一下Entry的padding，看起来更舒服一点 ```self.entry.pack(ipadx=100,ipady=10)```
 - 保存完自动清空内容 ```self.entry.delete(0,tk.END)```
 - 整合上一周的的书写diary的代码
+
