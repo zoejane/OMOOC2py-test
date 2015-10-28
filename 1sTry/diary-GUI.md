@@ -38,9 +38,15 @@ Read版面
     - 
 
 ## 尝试一
+#### 添加图片界面
 - 搜索read和write的图片，改成gif格式，宽度改成200
 - 想使用带图片的button，google搜索，貌似和self.photo命令有关
 - 搜到一段还有点类似的代码，button是在图片下，我觉得也可以
 > 参考资料：[[Tutor] Images + Tkinter](https://mail.python.org/pipermail/tutor/2002-November/018610.html)
 - 尝试着改一改，有个页面雏形
-- 添加了中文，程序开始要添加一行```# -*- coding: utf-8 -*-```
+- Button改成了中文，程序开始要添加一行```# -*- coding: utf-8 -*-```
+
+#### 添加界面跳转
+- 想象中有几个界面，想在几个界面中进行切换，开始是搜索的tkinter button change window，后来发现其实我的意思是在几个frame中切换
+- 在stackoverflow上有段超棒的解答，虽然我不太看得懂，但是看到程序运行出来的效果，我就觉得写得真的好棒
+> 参考资料：[Switch between two frames in tkinter](http://stackoverflow.com/questions/7546050/switch-between-two-frames-in-tkinter)
