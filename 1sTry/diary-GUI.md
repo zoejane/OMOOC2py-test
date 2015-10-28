@@ -71,3 +71,7 @@ Read版面
 - 根据前面的tutorial中的scrollbar部分，一行行的尝试添加代码，看哪里可能出错，修正
 - 添加```from Tkinter import *```减少报错
 - 考虑修改阅读版面的字体
+
+#### 中文支持
+- 发现不能保存中文，将get()语句修改 ```diary=self.entry.get().encode('utf-8')```
+- 发现可以保存复制的中文，但是中文不能打字
