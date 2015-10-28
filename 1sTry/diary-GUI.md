@@ -61,3 +61,4 @@ Read版面
 - 添加input界面-Entry Widgets,还是有问题，尝试搜索self entry tkinter,发现了上一次回答界面跳转问题的人对方面也有回答
 > 参考资料：[Tkinter Entry “get” function is returning nothing](http://stackoverflow.com/questions/10727131/tkinter-entry-get-function-is-returning-nothing)
 - 发现[Bryan Oakley](http://stackoverflow.com/users/7432/bryan-oakley)关于tkinter的回答都很棒，值得细读
+- 保存完自动清空内容 ```self.entry.delete(0,tk.END)```
