@@ -71,6 +71,7 @@ Read版面
 - 根据前面的tutorial中的scrollbar部分，一行行的尝试添加代码，看哪里可能出错，修正
 - 添加```from Tkinter import *```减少报错
 - 考虑修改阅读版面的字体
+- 发现阅读diary中内容不是实时更新，而是启动时更新的,觉得这应该和init有些关系，待修改
 
 #### 中文支持
 - 发现不能保存中文，将get()语句修改 ```diary=self.entry.get().encode('utf-8')```
