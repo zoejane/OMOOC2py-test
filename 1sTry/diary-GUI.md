@@ -58,4 +58,5 @@ Read版面
 - 整合上一周的的阅读diary的代码
 
 #### 添加写日记界面
-- 添加input界面-Entry Widgets
+- 添加input界面-Entry Widgets,还是有问题，尝试搜索self entry tkinter,发现了上一次回答界面跳转问题的人对方面也有回答
+> 
