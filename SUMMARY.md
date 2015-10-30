@@ -32,6 +32,7 @@
        * [Suprise与不插电试验](1sTry/surprise.md)
        * [当时间和精力有限，当你遇到一个坑 - Week2课程笔记](1sTry/face-problem.md)
        * [小小日记-桌面版](1sTry/diary-GUI.md)
+   * Week5:节奏
 * [迭代作品](2nDev/README.md)
 * [人生首秀](3rDemo/README.md)
 * [代码 (_src)](_src/README.md)
