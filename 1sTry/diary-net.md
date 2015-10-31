@@ -38,3 +38,8 @@ http://www.slideshare.net/sanjoysanyal/tcpip-basics
 ## 尝试三
 - 尝试与之前写的小小日记CLI版本结合起来
 - client写一条message server能够回复print出时间+message
+- 把时间改成了python2版本的了
+
+```    import datetime  ```  
+```today=datetime.now()  ```  
+``` print 'today.strftime("%y/%m/%d")'```
