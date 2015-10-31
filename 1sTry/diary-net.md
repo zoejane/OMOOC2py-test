@@ -47,3 +47,5 @@ http://www.slideshare.net/sanjoysanyal/tcpip-basics
 - 尝试在回复的同时，在server端打开diary.txt，并记录日记
 - 发现改了代码还是无法在目录下建立diary.txt,后来发现while loop中，它是记录到我的Zoe文件夹（也就是默认的home路径下面去了）
 - 推测，因为我的运行方式是```python /Users/Zoe/GitHub/socket/diary-server.py```尝试切换了目录再运行
+- 顺利整合了原有功能
+- 尝试多个客户端登陆
