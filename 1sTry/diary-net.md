@@ -28,3 +28,8 @@ http://www.slideshare.net/sanjoysanyal/tcpip-basics
 - http://www.tutorialspoint.com/python/python_networking.htm
 - TCP: http://www.binarytides.com/python-socket-programming-tutorial
 - UDP: http://www.binarytides.com/programming-udp-sockets-in-python
+
+## 尝试二
+- 使用udp要用到netcat,而不是telnet
+- 安装netcat```brew install netcat```
+- mac里用netcat要用netcat指令，而不是nc和ncat，如```netcat localhost 5000 -u -v```
