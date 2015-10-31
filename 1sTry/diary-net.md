@@ -42,4 +42,6 @@ http://www.slideshare.net/sanjoysanyal/tcpip-basics
 
 ```    import datetime  ```  
 ```today=datetime.now()  ```  
-``` print 'today.strftime("%y/%m/%d")'```
+``` print today.strftime("%y/%m/%d")```
+- 中文测试也是ok的
+- 尝试在回复的同时，在server端打开diary.txt，并记录日记
