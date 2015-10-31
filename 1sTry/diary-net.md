@@ -34,4 +34,7 @@ http://www.slideshare.net/sanjoysanyal/tcpip-basics
 - 安装netcat```brew install netcat```
 - mac里用netcat要用netcat指令，而不是nc和ncat，如```netcat localhost 5000 -u -v```
 - 通过上面的UDP学习文档，了解到了一个简单的socket和client的效果
+
+## 尝试三
 - 尝试与之前写的小小日记CLI版本结合起来
+- client写一条message server能够回复print出时间+message
