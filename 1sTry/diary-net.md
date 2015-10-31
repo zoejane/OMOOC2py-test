@@ -45,4 +45,4 @@ http://www.slideshare.net/sanjoysanyal/tcpip-basics
 ``` print today.strftime("%y/%m/%d")```
 - 中文测试也是ok的
 - 尝试在回复的同时，在server端打开diary.txt，并记录日记
-- 发现改了代码还是无法在目录下建立diary.txt,后来发现它是记录到我的Zoe文件夹（也就是默认的home路径下面去了）
+- 发现改了代码还是无法在目录下建立diary.txt,后来发现while loop中，它是记录到我的Zoe文件夹（也就是默认的home路径下面去了），只有在while loop外，才是发送在和socket.py的diary.txt中
