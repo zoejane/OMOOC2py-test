@@ -45,3 +45,4 @@ http://www.slideshare.net/sanjoysanyal/tcpip-basics
 ``` print today.strftime("%y/%m/%d")```
 - 中文测试也是ok的
 - 尝试在回复的同时，在server端打开diary.txt，并记录日记
+- 发现无法保存日记，后来发现是因为我一直在terminal里开着进程，关闭重新运行py就好
