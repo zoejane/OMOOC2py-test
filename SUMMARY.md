@@ -34,7 +34,7 @@
        * [小小日记-桌面版](1sTry/diary-GUI.md)
    * [Week5:节奏](1sTry/week5.md)
        * [小小日记-Net101](1sTry/diary-net.md)
-       * [节奏与不断靠近-Week3课程笔记](1sTry/rhythm.md)
+       * [节奏与不断靠近-Week3课程笔记](1sTry/video3.md)
 * [迭代作品](2nDev/README.md)
 * [人生首秀](3rDemo/README.md)
 * [代码 (_src)](_src/README.md)
